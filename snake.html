@@ -5,19 +5,37 @@
     <meta charset="UTF-8">
     <title>贪吃鱼</title>
     <style type="text/css">
-*{margin:0;padding: 0;font-family: "Microsoft YaHei";}
-#page{margin-right: auto;margin-left: auto; margin-top: 20px;height: 600px; width: 980px; }
-#yard{ width: 800px;border: 1px solid gray;box-shadow: 0 0 10px black; float: right;}
-#mark{font-weight: 800;}
-#mark_con{ color: red; }
-button{width: 50px; }
-a{text-decoration:none;}
+      *{margin:0;padding: 0;font-family: "Microsoft YaHei";}
+      #page{margin-right: auto;
+            margin-left: auto;  
+            margin-top: 20px;
+            height: 600px; 
+            width: 980px; 
+    }
+      #yard{width: 800px;
+            border: 1px solid gray;
+            box-shadow: 0 0 10px black; 
+            float: right;
+    }
+     #mark{font-weight: 800;
+    }
+     #mark_con{ color: red; 
+    }
+     #help{Margin: 500px;
+        width: 400px;
+        height: 710px;
+    }
+     button{width: 50px; 
+    }
+     a{text-decoration:none;
+    }
+
 </style>
 <script type="text/javascript">
         //伪常量
         var BLOCK_SIZE = 20;        //格子大小
-        var COLS = 20;                        //列数
-        var ROWS = 20;                        //行数
+        var COLS = 40;                        //列数
+        var ROWS = 40;                        //行数
         //变量
         var snakes = [];                //保存蛇坐标
         var c = null;                        //绘图对象
@@ -196,7 +214,7 @@ a{text-decoration:none;}
                         <td><button onclick="keydown(40);">下</button></td>
                         <td></td>
                     </tr>
-                </table><a href="贪吃蛇.html">再玩一次</a>
+                </table><a href="snake.html">再玩一次</a>
             </div>
         </div>
     </div>
